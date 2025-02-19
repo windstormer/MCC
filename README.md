@@ -70,13 +70,13 @@ EchoNet-Dynamic_test
 
 ## Run key selection of the proposed MCC framework
 ```
-cd ./MCC/src_key_selection
+cd ./MCE/src_key_selection
 python3 train.py --save_dir ../../results/ --src_dir ../../MCE_dataset --key "kmeans" --view "A2C" --img_size 256
 ```
 
 ## Train and Test of the proposed MCC framework with MCE_dataset
 ```
-cd ./MCC/src_xxx
+cd ./MCE/src_xxx
 python3 train.py --save_dir ../../results/ --model ${MODEL} --src_dir ../../MCE_dataset --key ${KEY} --view ${VIEW} --batch_size 1 --epochs 50 --img_size 256 --gid "0"
 python3 test.py --save_dir ../../results/SS_10%/ --model ${MODEL} --src_dir ../../MCE_dataset --key ${KEY} --view ${VIEW} --batch_size 1 --epochs 50 --img_size 256 --gid "0" --load_model_name "0108-202905" 
 ```
