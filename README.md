@@ -1,4 +1,4 @@
-# MCC: Multi-Cluster Contrastive Semi-Supervised Segmentation Framework for Echocardiogram Videos [IEEE Access]
+# MCC: Multi-Cluster Contrastive Semi-Supervised Segmentation Framework for Echocardiogram Videos [IEEE Access 25']
 Official code implementation for the MCC paper accepted by the journal IEEE Access.
 https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10883951
 
