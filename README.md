@@ -36,6 +36,21 @@ https://echonet.github.io/dynamic/index.html#dataset
 
 Folder Structures for EchoNet-Dynamic Dataset
 ```
+EchoNet-Dynamic_test
+|-- Videos
+|   |-- 0X1A0A263B22CCD966.avi
+|   |-- 0X1A2A76BDB5B98BED.avi
+|   |-- ...
+|-- FileList.csv
+|-- VolumeTracings.csv
+```
+
+
+- EchoNet-Dynamic Dataset Annotated by Our Professionals
+[https://drive.google.com/drive/folders/1LkwArTEbBxfSKSv31fLwDXjHjvvyEG4-?usp=sharing](https://drive.google.com/file/d/1U3pPUcGF0NIQg6Fm5ZCyufVqSzwx1QmF/view?usp=sharing)
+
+Folder Structures for EchoNet-Dynamic Dataset Annotated by Our Professionals
+```
 EchoNet-Dynamic
 |-- image
 |   |-- 0X10A28877E97DF540
@@ -52,22 +67,6 @@ EchoNet-Dynamic
 |   |-- 0X10B7505562B0A702
 |   |-- ...
 ```
-
-
-- EchoNet-Dynamic Dataset Annotated by Our Professionals
-https://drive.google.com/drive/folders/1LkwArTEbBxfSKSv31fLwDXjHjvvyEG4-?usp=sharing
-
-Folder Structures for EchoNet-Dynamic Dataset Annotated by Our Professionals
-```
-EchoNet-Dynamic_test
-|-- Videos
-|   |-- 0X1A0A263B22CCD966.avi
-|   |-- 0X1A2A76BDB5B98BED.avi
-|   |-- ...
-|-- FileList.csv
-|-- VolumeTracings.csv
-```
-
 ## Run key selection of the proposed MCC framework
 ```
 cd ./MCE/src_key_selection
